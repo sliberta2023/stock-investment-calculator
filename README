@@ -7,3 +7,5 @@ This is the api endpoint
 Eg:
 Future investment of 'msft' for 30 years with 100k initial investment with 0 monthly contributions
 http://localhost:8000/getTotalInvestment/msft/100000/30/0
+
+There is a github action file, run-app.yml to run this server automatically after code merge
