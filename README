@@ -1,0 +1,9 @@
+This calculates the future investment of x initial capital, 
+for a given stock s with annual rate of r and dividend rate d for y number of years
+with m monthly contributions
+This is the api endpoint
+/getTotalInvestment/{ticker_symbol}/{initial_capital}/{investment_years}/{monthly_contribution}
+
+Eg:
+Future investment of 'msft' for 30 years with 100k initial investment with 0 monthly contributions
+http://localhost:8000/getTotalInvestment/msft/100000/30/0
